@@ -1,0 +1,634 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000000 ;
+}
+.first-page{
+    margin-left: 150px;
+}
+.navbar{
+    display: flex;
+    margin-top: 50px;
+}
+.logo{
+    height: 30px;
+}
+.navbar-upper{
+    display: flex;
+}
+.main-image{
+    margin-top: -150px;
+    height: 500px;
+    margin-left: 50px;
+}
+.nav{
+    display: flex;
+    color: #fff;
+}
+.nav ul{
+    display: flex;
+    position: absolute;
+    margin-left: 200px;
+    font-size: 13px;
+    font-family:sans-serif;
+    gap: 50px;
+    list-style: none;
+}
+.l1:hover{
+    color: #00f2ff;
+}
+.nav button{
+    margin-left: 570px;
+    position: absolute;
+    padding: 10px 35px;
+    margin-top: -15px;
+    color: #fff;
+    background-color: #292b2e;
+    font-size: 13px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.nav button:hover{
+    background-color: #fff;
+    color: #1f2020;
+    transition: 1s;
+}
+.on-ear{
+    margin-top: 70px;
+    margin-left: 510px;
+    position: absolute;
+    height: 65px;
+}
+.page-pera{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.page-pera h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-pera h2{
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.pera{
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 320px;
+    color: rgb(167, 164, 164);
+    line-height: 25px;
+}
+.btn-pera{
+    margin-top: 30px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #1f2020;
+    width: 190px;
+    border-radius: 6px;
+}
+.btn-pera:hover{
+    background-color: #00f2ffb6;
+    transition: 1s;
+}
+.btn-pera p{
+    margin-top: -20px;
+    margin-left: 35px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-pera h1{
+    margin-left: 110px;
+    margin-top: -16px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* <----logo line-----> */
+.logo-line{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.apple{
+    height: 30px;
+}
+.spotify{
+    height: 30px;
+    margin-left: 130px;
+}
+.amazon{
+    height: 25px;
+    margin-left: 130px;
+}
+.youtube{
+    height: 25px;
+    margin-left: 130px;
+}
+
+/* <------- SECOND PAGE --------> */
+.second-page{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.specs{
+    margin-left: 350px;
+}
+.blutooth{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.blutooth h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.blutooth p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 156, 156);
+}
+.battery{
+    margin-left: 220px;
+    margin-top: 30px;
+}
+.battery h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.battery p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 156, 156);
+}
+.charger{
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.charger h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.charger p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 156, 156);
+}
+.mic{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.mic h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.mic p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 156, 156);
+    width: 120px;
+}
+.specs-image{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 450px;
+}
+.second-block{
+    margin-top: 120px;
+    margin-left: 130px;
+}
+.case{
+    margin-left: 250px;
+}
+.block-pera{
+    margin-top: 50px;
+    display: flex;
+}
+.pera-2{
+    margin-top: 120px;
+    margin-left: 80px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    color: rgb(158, 156, 156);
+    line-height: 30px;
+}
+.btn-info{
+    margin-top: 40px;
+    margin-left: 80px;
+    color: #fff;
+    border: 1px solid;
+    background-color: #252525;
+    padding: 10px 20px;
+    border: none;
+    width: 130px;
+    border-radius: 6px
+}
+.btn-info:hover{
+    background-color: #00f2ffb6;
+    color: #000000;
+    transition: 1s;
+}
+.btn-info img{
+    padding-bottom: 5px;
+}
+.btn-info p{
+    margin-top: -26px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* <------- THIRD PAGE -------> */
+.third-page{
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.third-pera{
+    display:flex;
+    border: 1px solid;
+    padding: 90px 170px;
+    background-color: #1a1a1b;
+    margin-right: 150px;
+    height: 350px;
+    border-radius: 10px;
+}
+.your-music h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    color: #fff;
+}
+.pera-3{
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 156, 156);
+}
+.Shopping-btn{
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #000000;
+    border: none;
+    width: 130px;
+    border-radius: 6px;
+    color: #fff;
+    height: 45px;
+}
+.Shopping-btn:hover{
+    background-color:#00f2ffb6;
+    color: #000000;
+    transition: 1s;
+}
+.Shopping-btn p{
+    margin-top: -20px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buynowsection{
+    margin-left: 50px;
+    height: 220px;
+}
+/* <------- FOURTH PAGE SECTION --------> */
+.fourth-page{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.Product-image{
+    margin-left: 250px;
+}
+.products-price{
+    margin-top: 70px;
+    margin-left: 130px;
+    display: flex;
+}
+.headphone:hover{
+    padding-top: 10px;
+    transition: 1s;
+}
+.black-headphone{
+    height: 150px;
+}
+.pera-4{
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin-top: -90px;
+    margin-left: -30px;
+}
+.pera-4:hover{
+    background-color: #00f2ff92;
+}
+.pera-4 h1{
+    margin-top: 90px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.pera-4 p{
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(189, 187, 187);
+}
+.pera-4 img{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.headphone-2{
+    margin-left: 100px;
+}
+.headphone-2:hover{
+    padding-top: 10px;
+    transition: 1s;
+}
+.red-headphone{
+    height: 150px;
+}
+.pera-5{
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin-top: -90px;
+    margin-left: -30px;
+}
+.pera-5:hover{
+    background-color: #00f2ff92;
+}
+.pera-5 h1{
+    margin-top: 90px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.pera-5 p{
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(189, 187, 187);
+}
+.pera-5 img{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.headphone-3{
+    margin-left: 100px;
+}
+.headphone-3:hover{
+    padding-top: 10px;
+    transition: 1s;
+}
+.night-headphone{
+    height: 150px;
+}
+.pera-6{
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin-top: -90px;
+    margin-left: -30px;
+}
+.pera-6:hover{
+    background-color:#00f2ff92 ;
+}
+.pera-6 h1{
+    margin-top: 90px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.pera-6 p{
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(189, 187, 187);
+}
+.pera-6 img{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.headphone-price-2{
+    margin-top: 60px;
+    margin-left: 130px;
+    display: flex;
+}
+.headphone-4:hover{
+    padding-top: 10px;
+    transition: 1s;
+}
+.blue-headphone{
+    height: 150px;
+}
+.pera-7{
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin-top: -90px;
+    margin-left: -30px;
+}
+.pera-7:hover{
+    background-color:#00f2ff92 ;
+}
+.pera-7 h1{
+    margin-top: 90px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.pera-7 p{
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(189, 187, 187);
+}
+.pera-7 img{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.headphone-5{
+    margin-left: 100px;
+}
+.headphone-5:hover{
+    padding-top: 10px;
+    transition: 1s;
+}
+.twilight-headphone{
+    height: 150px;
+}
+.pera-8{
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin-top: -90px;
+    margin-left: -30px;
+}
+.pera-8:hover{
+    background-color:#00f2ff92 ;
+}
+.pera-8 h1{
+    margin-top: 90px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.pera-8 p{
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(189, 187, 187);
+}
+.pera-8 img{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+/* <------ FINAL PAGE SECTION -------> */
+.last-page{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.contant{
+    display: flex;
+}
+.twitter{
+    position: absolute;
+    margin-top: 50px;
+    filter: brightness(0.1) invert(0);
+    height: 50px;
+}
+.lastpage-contant{
+    display: flex;
+    margin-left: 100px
+}
+.logo-2{
+    position: absolute;
+}
+.pro-sub{
+    display: flex;
+    margin-left: 150px;
+}
+.product-details h1{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.product-details ul{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(213, 213, 213);
+    list-style: none;
+    line-height: 25px
+}
+.l2:hover{
+    color: #00f2ff;
+}
+.support-details{
+    margin-left: 150px;
+}
+.support-details h1{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.support-details ul{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(213, 213, 213);
+    list-style: none;
+    line-height: 25px
+}
+.l3:hover{
+    color: #00f2ff;
+}
+.reach-us{
+    margin-left: 120px;
+}
+.email{
+    border: 1px solid;
+    padding: 10px 10px;
+    background-color: #1A1A1B;
+    width: 300px;
+    border-radius: 10px;
+}
+.email:hover{
+    background-color: rgb(81, 80, 80);
+}
+.email h1{
+    position: absolute;
+    padding-top: 12px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(213, 213, 213);
+}
+.subscribe{
+    margin-left: 140px;
+    margin-top: -1px;
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius:10px ;
+}
+.subscribe:hover{
+    background-color: #00f2ff92;
+    color: #000000;
+    transition: 1s;
+}
+.subscribe img{
+    position: absolute;
+    margin-left: -50px;
+}
+.subscribe p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-left: 30px;
+}
+.social-media{
+    margin-top: 20px;
+}
+.twitter-2{
+    margin-left: 10px;
+}
+.instagram{
+    margin-left: 10px;
+}
+.linkedin{
+    margin-left: 10px;
+}
+.uparrow{
+    margin-left: 190px;
+}
